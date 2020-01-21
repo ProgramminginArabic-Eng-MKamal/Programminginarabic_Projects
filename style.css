@@ -1,0 +1,169 @@
+body{
+    font: 15px/1.5;
+    font-family: monospace;
+    padding:10px;
+    margin:0;
+    background-color: darksalmon;
+}
+
+/*global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.sub_button{
+    height:30px;
+    font-size: 18px;
+    background: red;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:darkgray;
+}
+.dark{
+    padding:15px;
+    background:darkslategray;
+    color:darkgray;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+header{
+    background: darksalmon;
+    color:lightgray;
+    padding-top:10px;
+    min-height:10px;
+    border-bottom:3px solid;
+}
+header a{
+    color:darkslategray;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header li{
+    display:inline;
+    padding:0 20px 0 20px;
+    font-size: 15px;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+ header .current a{
+     color:brown;
+     font-weight: bold;
+     font-size: large;
+ }
+
+ header a:hover{
+     color:gold;
+     font-weight: bold;
+     font-family: monospace;
+ }
+
+ #showcase{
+     min-height: 400px;
+     background: lightcoral;
+     text-align:center;
+     color:white;
+ }
+
+ #showcase h1{
+     margin-top:100px;
+ }
+
+ #showcase p{
+     font-size: 20px;
+ }
+
+ #newsletter{
+     padding:15px;
+     color:darksalmon;
+     background: brown;
+ }
+
+ #newsletter h1{
+     float:right;
+ }
+
+ #newsletter form{
+     float: left;
+     margin-top:10px;
+ }
+
+ #newsletter input[type="email"]{
+     padding:4px;
+     height:25px;
+     width:250px;
+ }
+
+ #boxes{
+     margin-top:20px;
+ }
+ #boxes .box{
+     float: left;
+     text-align: center;
+     width:30%;
+     padding:10px;
+ }
+
+ #boxes .box img{
+     width:95px;
+ }
+
+ aside#sidebar{
+     float: right;
+     width:30%;
+     margin-top:10px;
+ }
+
+ article#main-col{
+     float:left;
+     width:65%;
+ }
+
+ footer{
+     padding:20px;
+     margin-top:20px;
+     color:darksalmon;
+     background-color: brown;
+     text-align: center;
+ }
+
+ /*media quieries*/
+
+ @media(max-width:768px){
+     header nav,
+     header,
+     header nav li,
+     #newsletter,
+     #newsletter h1,
+     #newsletter form,
+     #boxes .box,
+     article#main-col,
+     aside#sidebar{
+         float:none;
+         text-align:center;
+         width:100%;
+     }
+ }
+
+ header{
+     padding-bottom:20px;
+ }
+
+ #showcase h1{
+     margin-top:60px;
+ }
+
+ 
